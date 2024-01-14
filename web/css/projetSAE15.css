@@ -1,0 +1,62 @@
+/*******************************************/
+/* Feuille de styles pour projetSAE15.html */
+/*******************************************/
+
+/* définition des styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 1px 0;
+    box-sizing: border-box;
+}
+
+#entete {
+    background-color: #FF9900;
+    text-align: center;
+    padding: 20px;
+}
+
+#main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#stats {
+    width: 40%;
+    background-color: #FF3366;
+    height: calc(100vh - 40px);
+    overflow: auto;
+}
+
+#carte {
+    width: 60%;
+    background-color: #9966FF;
+    height: calc(100vh - 40px);
+    overflow: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer {
+    background-color: #669933;
+    text-align: center;
+    padding: 20px;
+}
+
+.stats-content {
+    padding:0px;
+    margin:5px;
+    background-color:#FFCCCC;
+    width: 100%;
+    height: 100%;
+}
+
+.map-image {
+    padding:0px;
+    margin:5px;
+    background-color:#CCCCFF;
+    max-width: 100%;
+    height: auto;
+}
