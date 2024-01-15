@@ -99,45 +99,7 @@ Publish textual results on a web page. Start formatting data in HTML/CSS. Delive
 ### Activity 4: Graphical Tools
 Create graphical representations of data. Integrate graphics into the web page. Deliverable: **tu_Activité4.ipynb**
 
-[Uploading projetSAE15.html…]()<!doctype html>
+# Final Result:
+![image](https://github.com/azzouzioussama/Velib-Data-Analysis/assets/78319392/ef4fd3f8-a8a6-4d71-af60-47d87793eae7)
 
-<html lang="fr">
-
-	<!-- L'entête du document -->
-	<head>
-	  <meta charset="utf-8">
-	  <title>Titre de la page</title>
-	  <!-- Lien vers la feuille de styles -->
-	  <link rel="stylesheet" href="css/projetSAE15.css">
-	</head>
-	
-	<!-- Le contenu de la page web -->
-	<body>
-
-		<!-- Publication des résultats de l'analyse des données Vélib -->
-
-		<div id="entete">
-			Représentations graphiques des résultats issus du traitement des données Vélib
-		</div>
-
-		<div id="main">
-			<!-- import stats.html to stats -->
-			<div id="stats">
-				<!-- Affichage les statistiques  -->
-
-				<object class="stats-content" id="stats-content" data="data/stats.html" type="text/html"></object>
-			</div>
-
-			<div id="carte">
-				<img class="map-image" id="map-image" src="data/carte_taux_ebike.png">
-			</div>
-		</div>
-
-		<div id="footer">
-			Azzouzi Oussama Abderraouf
-		</div>
-	  
-	</body>
-	
-</html>
 
